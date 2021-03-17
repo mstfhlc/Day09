@@ -1,14 +1,12 @@
 // Only change code below this line
-function myTrueBoolean(){
+function myTrueBoolean(boolean){
 
-    if(myTrueBoolean){
-        return true;
-    }else{
-        return false;
-    }
-}
+   var boolean=true;
+    
+};
 
-console.log(true);
+console.log(myTrueBoolean(true));
+
 
 // Only change code below this line
 module.exports=myTrueBoolean;
